@@ -1,0 +1,35 @@
+CREATE DATABASE alumni_tracking;
+USE alumni_tracking;
+
+CREATE TABLE alumni_details (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    sex VARCHAR(10) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    civil_status VARCHAR(20) NOT NULL,
+    religion VARCHAR(50) NOT NULL,
+    tele_contact_number VARCHAR(20) NOT NULL,
+    email_address VARCHAR(100) NOT NULL,
+    elementary VARCHAR(100),
+    elemyeargraduated VARCHAR(50),
+    highschool VARCHAR(200),
+    hsyeargraduated VARCHAR(50),
+    campusname VARCHAR(200),
+    collegecourse VARCHAR(200),
+    collegeyeargraduated VARCHAR(50),
+    postrgraduate VARCHAR(200),
+    course VARCHAR(200),
+    yeargraduated VARCHAR(50),
+    academic_honors VARCHAR(200),
+    award_distinction VARCHAR(200),
+    board_exams VARCHAR(200),
+    year_passed VARCHAR(50),
+    occupation VARCHAR(255),
+    employer VARCHAR(255),
+    businessaddress VARCHAR(255),
+    contactnumber VARCHAR(255),
+    lengthofservice VARCHAR(255),
+    position VARCHAR(255)
+);
